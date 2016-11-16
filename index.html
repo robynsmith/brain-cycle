@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title class="timer">Brain Cycle</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron text-center">
+          <h1>Brain Cycle</h1>
+            <h2 class="timer">Timer!</h2>
+            <button type="button" class="btn btn-primary" value="start">Start</button>
+            <button type="button" class="btn btn-danger" value="reset">Reset</button>
+            <button type="button" class="btn btn-warning" value="pause">Pause</button>
+            <div class="form-group">
+              <label for="min">Minutes:</label>
+              <input type="text" class="form-control" id="min" value="25">
+            </div>
+            <div class="cycles-complete">
+              <h3 class="data-cycles-complete">Cycles Complete: 0</h3>
+            </div>
+      </div>
+    </div>
+  </body>
+</html>
